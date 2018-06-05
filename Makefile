@@ -1,3 +1,5 @@
+# unmodified code only builds properly on targets
+# where "unsigned long" is 32-bit wide
 CC=gcc
 CFLAGS=-Wall -g -m32
 
